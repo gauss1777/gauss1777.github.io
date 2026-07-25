@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">古小菌AI标识</title>
+  <desc id="desc">由古菌环形结构、数据节点和AI光点组成的品牌图标</desc>
+  <defs>
+    <linearGradient id="g" x1="32" x2="210" y1="28" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00A7A7"/>
+      <stop offset=".5" stop-color="#1F7A8C"/>
+      <stop offset="1" stop-color="#172A3A"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#082f49" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="240" height="240" rx="56" fill="#F7FBFA"/>
+  <circle cx="120" cy="120" r="82" fill="none" stroke="url(#g)" stroke-width="18" stroke-linecap="round" stroke-dasharray="230 78" filter="url(#soft)"/>
+  <path d="M78 130c22-50 62-50 84 0M86 94c28 28 40 28 68 0M75 154c31 22 59 22 90 0" fill="none" stroke="#172A3A" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="72" cy="72" r="10" fill="#00A7A7"/>
+  <circle cx="171" cy="72" r="8" fill="#1F7A8C"/>
+  <circle cx="184" cy="161" r="11" fill="#B8E986"/>
+  <circle cx="62" cy="166" r="7" fill="#172A3A"/>
+  <path d="M72 72l99 0M171 72l13 89M184 161l-122 5" fill="none" stroke="#8BC7C1" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+</svg>
