@@ -1,117 +1,71 @@
 <!doctype html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI古菌 · 古菌研究与AI工作流</title>
-    <meta
-      name="description"
-      content="AI古菌主理人主页：古菌研究、文献追踪、AI辅助科研工作流与中文科普实践。"
-    />
-    <link rel="icon" type="image/svg+xml" href="assets/archaea-mark.svg" />
-    <link rel="stylesheet" href="assets/style.css" />
-  </head>
-  <body>
-    <div class="aurora-bg"></div>
-    <header class="topbar">
-      <div class="inner">
-        <a class="brand" href="#top">
-          <img src="assets/archaea-mark.svg" alt="AI古菌标识" />
-          <span>AI古菌</span>
-        </a>
-        <nav>
-          <a href="#map">研究地图</a>
-          <a href="#works">项目与资料</a>
-          <a href="#about">主理人说明</a>
-          <a href="#contact">联系</a>
-        </nav>
-      </div>
-    </header>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI Archaea: research intelligence, reproducible AI-assisted workflows, and bilingual science communication for archaeal biology.">
+  <title>AI Archaea</title>
+  <link rel="icon" href="assets/archaea-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell">
+      <a class="brand" href="index.html" aria-label="AI Archaea home">
+        <img src="assets/archaea-mark.svg" alt="">
+        <span>AI Archaea</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a class="current" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="science-zh.html" lang="zh-CN">中文科普</a>
+        <a href="https://github.com/gauss1777">GitHub</a>
+      </nav>
+    </div>
+  </header>
 
-    <main id="top">
-      <section class="hero">
-        <p class="eyebrow">AI古菌 · Archaea & AI Research Desk</p>
-        <h1>把古菌研究和AI工作流放进一个可持续更新的知识体系</h1>
-        <p>
-          这里是主理人 <strong>gauss1777</strong> 的个人知识工作台。聚焦古菌分类与环境生态、甲烷代谢与酶系、方法学传播、以及能落地到中文读者的 AI 辅助科研流程。
-        </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="https://github.com/gauss1777" target="_blank" rel="noreferrer">前往 GitHub 主页</a>
-          <a class="btn" href="#works">查看项目与入口</a>
-        </div>
-      </section>
+  <main class="wrap page">
+    <section class="hero">
+      <p class="eyebrow">ARCHAEA · RESEARCH · AI WORKFLOWS</p>
+      <h1>AI Archaea</h1>
+      <p class="lead">A structured home for archaeal research intelligence, reproducible AI-assisted workflows, and bilingual science communication.</p>
+      <ul class="positions" aria-label="Core areas">
+        <li>Archaeal evolution, ecology, and metabolism</li>
+        <li>Literature intelligence and evidence tracking</li>
+        <li>AI-assisted research workflows with human verification</li>
+      </ul>
+    </section>
 
-      <section class="metrics" id="map">
-        <article>
-          <h2>研究地图</h2>
-          <p>用“问题 → 工具 → 证据”的路径将选题结构化，支持从问题定义到文献复核的闭环。</p>
-          <ul>
-            <li>分类演化、生态位、代谢机制三类主线</li>
-            <li>兼顾模型生物、病毒-宿主和极端环境适应研究</li>
-            <li>每条产出都保留来源、时间戳和可复核字段</li>
-          </ul>
-        </article>
-        <article>
-          <h2>文献情报</h2>
-          <p>围绕新近发表、热点议题与经典框架整理“可复用阅读单元”，支持持续更新。</p>
-          <ul>
-            <li>摘要、争议点、证据链、可复查清单</li>
-            <li>支持公众号与站内内容的跨场景复用</li>
-            <li>形成任务包以减少重复筛选与断点</li>
-          </ul>
-        </article>
-        <article>
-          <h2>AI + Workflow</h2>
-          <p>强调 AI 在检索、归档、初稿生成中的作用边界：提高效率，但不替代核验。</p>
-          <ul>
-            <li>提示词模板化与产出模板规范化</li>
-            <li>文献追踪、自动化摘要与证据追踪</li>
-            <li>中文传播素材和技术交付内容双线并行</li>
-          </ul>
-        </article>
-      </section>
+    <section class="directory" aria-labelledby="directory-title">
+      <h2 id="directory-title">Directory</h2>
+      <p><a href="about.html"><strong>About the Curator</strong></a> <span>Profile, research interests, working principles, and contact.</span></p>
+      <p><a href="about.html#research"><strong>Research</strong></a> <span>Questions across archaeal diversity, evolution, ecology, and metabolism.</span></p>
+      <p><a href="about.html#projects"><strong>Projects</strong></a> <span>Selected public repositories, literature systems, and research tools.</span></p>
+      <p><a href="about.html#workflows"><strong>Methods and Workflows</strong></a> <span>Traceable ways to combine domain expertise with AI assistance.</span></p>
+    </section>
 
-      <section id="works" class="section-block">
-        <h2>项目与入口</h2>
-        <div class="card-grid">
-          <div class="card">
-            <h3>AI古菌知识与文献情报站</h3>
-            <p>整合旧工作台与专题内容的本地仓库结构，提供文献选题、期刊检索、研究路线、会议与资料入口。</p>
-            <a href="https://github.com/gauss1777/AIArchaeaLiteratureSite" target="_blank" rel="noreferrer">查看仓库</a>
-          </div>
-          <div class="card">
-            <h3>古菌门户备份版</h3>
-            <p>可复用的站点备份工程，保留 Hugo 结构与可发布页面，适合继续迭代为公开门户。</p>
-            <a href="https://github.com/gauss1777/archaea.chat" target="_blank" rel="noreferrer">查看仓库</a>
-          </div>
-          <div class="card">
-            <h3>GitHub Profile 仓库页</h3>
-            <p>主理人主页文案放在个人 profile 仓库，建议直接使用 <code>GITHUB_PROFILE_TEMPLATE.md</code> 一键对齐。</p>
-            <a href="#contact">跳转到资料说明</a>
-          </div>
-        </div>
-      </section>
+    <aside class="outreach-callout" aria-labelledby="outreach-title">
+      <p class="kicker">CHINESE SCIENCE OUTREACH</p>
+      <h2 id="outreach-title" lang="zh-CN">AI古菌中文科普</h2>
+      <p lang="zh-CN">面向中文读者的古菌研究地图、文献情报、AI科研工作流与开放项目入口。</p>
+      <a class="arrow-link" href="science-zh.html" lang="zh-CN">进入中文科普页 <span aria-hidden="true">→</span></a>
+    </aside>
 
-      <section id="about" class="section-block muted">
-        <h2>网站与主理人说明（适合放入 README 的版本）</h2>
-        <p>该仓库用于个人公开网站（GitHub Pages）。建议每次发布前更新：</p>
-        <ul>
-          <li>栏目结构（研究地图、文献情报、项目入口）</li>
-          <li>最近更新日期与关键词</li>
-          <li>核验声明与引用来源</li>
-        </ul>
-      </section>
+    <section class="section compact" aria-labelledby="selected-title">
+      <h2 id="selected-title">Selected Links</h2>
+      <ul class="link-list">
+        <li><a href="https://github.com/gauss1777">GitHub profile</a><span>Public code and research repositories</span></li>
+        <li><a href="https://github.com/gauss1777/AIArchaeaLiteratureSite">AI Archaea Literature Site</a><span>Literature intelligence project</span></li>
+        <li><a href="https://github.com/gauss1777/gauss1777-Home">Profile source repository</a><span>Extended GitHub-facing profile materials</span></li>
+      </ul>
+    </section>
+  </main>
 
-      <section id="contact" class="section-block">
-        <h2>联系方式与协作入口</h2>
-        <p>主理人主页、仓库与公众号说明都放在 GitHub 统一管理，建议优先通过 issue / discussions 收集建议。</p>
-        <p>你也可以把新需求按下列格式发给主理人：</p>
-        <pre>研究问题 | 需要支持的材料 | 时间 | 已有数据与限制</pre>
-      </section>
-    </main>
-
-    <footer>
-      <p>© 2026 AI古菌. 适配 GitHub Pages 发布目录。站点源码可直接放入 <strong>gauss1777/gauss1777.github.io</strong>。</p>
-    </footer>
-  </body>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 AI Archaea</span>
+      <a href="https://github.com/gauss1777/gauss1777.github.io">Website source</a>
+    </div>
+  </footer>
+</body>
 </html>
